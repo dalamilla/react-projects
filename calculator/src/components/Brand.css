@@ -1,0 +1,44 @@
+.brand {
+  width: 300px;
+  height: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.brand .logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 126px;
+  height: 40px;
+}
+
+.brand .logo .line {
+  color: var(--line-text-color);
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.brand .logo .model {
+  color: var(--model-text-color);
+  font-size: 1em;
+  font-family: monospace;
+}
+
+.brand .solar {
+  width: 126px;
+  height: 40px;
+  background-color: var(--sl-bg-color);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 3px var(--sl-bg-color) solid;
+  border-right: 3px var(--sl-bg-color) solid;
+}
+
+.brand .solar div {
+  width: 30px;
+  height: 40px;
+  background-color: var(--sl-pn-color);
+}

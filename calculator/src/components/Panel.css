@@ -1,0 +1,34 @@
+#panel {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#panel button {
+  width: 75px;
+  height: 60px;
+  background-color: var(--btn-bg-color);
+  color: var(--btn-text-color);
+  outline: 0;
+  border-top: 0;
+  border-left: 0;
+  border-right: 4px var(--btn-sh-color) solid;
+  border-bottom: 4px var(--btn-sh-color) solid;
+  font-size: 1.5em;
+}
+
+#panel button:active {
+  border-top: 2px var(--cal-bg-color) solid;
+  border-left: 2px var(--cal-bg-color) solid;
+  border-right: 2px var(--btn-sh-color) solid;
+  border-bottom: 2px var(--btn-sh-color) solid;
+}
+
+#panel #clear {
+  width: 340px;
+  height: 50px;
+  background-color: var(--ac-bg-color);
+}

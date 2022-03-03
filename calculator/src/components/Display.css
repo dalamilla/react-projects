@@ -1,0 +1,19 @@
+#screen {
+  width: 300px;
+  height: 60px;
+  background-color: var(--sc-bg-color);
+  border-radius: 5px;
+  border-top: 4px var(--sc-sh-color) solid;
+  border-right: 4px var(--sc-sh-color) solid;
+  font-family: digital-7;
+  font-size: 2em;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 5px;
+}
+
+#display {
+  align-self: flex-end;
+}
