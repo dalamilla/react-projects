@@ -1,0 +1,21 @@
+.clock {
+  width: 700px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--clock-bg-color);
+  box-shadow: 2px 5px 4px var(--clock-sh-color);
+  border-radius: 25px;
+}
+
+.panel {
+  width: 650px;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--pan-bg-color);
+  border-radius: 25px;
+  border: 5px var(--pan-sh-color) solid;
+}

@@ -1,0 +1,102 @@
+.control {
+  width: 300px;
+  height: 250px;
+  font-family: 'Times New Roman', Times, serif;
+  color: var(--main-text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.control .control-setup {
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.control .control-action {
+  width: 300px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#break-label,
+#session-label {
+  width: 150px;
+  height: 125px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#break-length,
+#session-length {
+  width: 40px;
+  height: 40px;
+  background-color: var(--dis-bg-color);
+  border: 2px var(--dis-sh-color) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dis-text-color);
+  font-size: 2em;
+  font-family: digital-7;
+}
+
+.button-panel {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.button-panel > button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: var(--main-text-color);
+  background-color: var(--pan-sh-color);
+  border: 1px var(--pan-bg-color) solid;
+  font-size: 1.2em;
+}
+
+.button-panel > button:active {
+  border: 3px var(--pan-bg-color) solid;
+  font-size: 1em;
+}
+
+.control-setup > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--main-text-color);
+  background-color: var(--pan-sh-color);
+  border: 1px var(--pan-bg-color) solid;
+  font-size: 1.2em;
+}
+
+.control-setup > button:active {
+  border: 3px var(--pan-bg-color) solid;
+  font-size: 1em;
+}
+
+.control-action > button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: var(--main-text-color);
+  background-color: var(--pan-sh-color);
+  border: 1px var(--pan-bg-color) solid;
+  font-size: 1.2em;
+}
+
+.control-action > button:active {
+  border: 3px var(--pan-bg-color) solid;
+  font-size: 1em;
+}

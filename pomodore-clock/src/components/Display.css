@@ -1,0 +1,33 @@
+.display {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.display .screen {
+  width: 200px;
+  height: 175px;
+  background-color: var(--dis-bg-color);
+  border: 5px var(--dis-sh-color) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--dis-text-color);
+  font-size: 6em;
+  font-family: digital-7;
+}
+
+.display .brand {
+  color: var(--main-text-color);
+  font-size: 1.4em;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.display #timer-label {
+  color: var(--main-text-color);
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+}
